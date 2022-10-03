@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.671);
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+nav{
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);  
+}
+.logo{
+    width: 100px;
+    border-right: solid 1px white;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+.services{
+    padding-left:10px ;
+    display: flex;
+    border-bottom: solid 1px white;
+    gap: 5px;
+    align-items: center;
+    font-size: 13px;
+  
+}
+.socialMedia{
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+    align-items: center;
+    border-bottom:solid 1px white;
+    padding-right: 10px;
+}
+
+main{
+    padding-left: 120px;
+    padding-top: 80px;
+}
+h1{
+    margin-top: 50px;
+    width: 600px;
+    font-size: 70px;
+}
+.help{
+    display: grid;
+    padding-left: 10px;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+}
+.search{
+    align-items: center;
+    border-bottom:solid 1px white;
+    border-left: solid 1px white;
+    display: flex;
+    justify-content: center;
+}
+.discover{
+    border: none;
+    height: 40px;
+    background-color: rgb(45, 118, 255);
+    color: white;
+    margin-top: 50px;
+    width: 150px;
+}

@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(6, 0, 17);
+    font-family: 'Jost', sans-serif;
+    
+}
+.container{
+    margin: 80px;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding: 20px;
+}
+.description{
+    font-size: 15px;
+    color: rgb(196, 193, 193);
+}
+.cursos{
+    display: flex;
+    gap: 50px;
+}
+.cursosDescripcion{
+    text-align: left;
+    display: flex;
+    gap: 30px;
+    margin:50px 0px;
+    width: 350px;
+    background-color: black;
+    height: 180px;
+}
+.wealth{
+    font-weight: bold;
+    width: 120px;
+    margin: 40px 30px;
+}
+a{
+    margin-left: 30px;
+    font-size: 12px;
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+.icon{
+    padding-bottom: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+.image{
+    width: 80px;
+}
+.meetPartners{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+.partners{margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.partnersName{
+    background-color: rgb(47, 84, 204);
+    width: 100px;
+    height: 20px;
+    font-size: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
