@@ -60,7 +60,7 @@ h1{
     font-size: 70px;
 }
 .help{
-    display: grid;
+    padding-top: 20px;
     padding-left: 10px;
     border-bottom: solid 1px white;
     border-left: solid 1px white;
