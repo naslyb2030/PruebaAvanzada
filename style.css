@@ -15,7 +15,9 @@ nav{
     grid-template-columns: repeat(4, auto);  
 }
 .logo{
-    width: 100px;
+    height: 100%;
+    width: 110px;
+    padding-right: 10px;
     border-right: solid 1px white;
 }
 
@@ -30,7 +32,8 @@ nav{
     padding-left:10px ;
     display: flex;
     border-bottom: solid 1px white;
-    gap: 5px;
+ 
+    gap: 8px;
     align-items: center;
     font-size: 13px;
   
@@ -41,7 +44,10 @@ nav{
     gap: 15px;
     align-items: center;
     border-bottom:solid 1px white;
-    padding-right: 10px;
+    padding: 30px;
+}
+.social{
+    width: 30px;
 }
 
 main{
